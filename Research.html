@@ -76,13 +76,18 @@
 			</div>
 			<div style="height:400px;width:600px;float:right;background-color:rgb(240,250,250);">
 				<ul>
-					<li>We targeted the problem of base attitude disturbance during manipulation of dual arm on a floating base.</li>
-					<li>we used Generalized Jacobian Matrix to control the end-effectors while accounting for the base disturbance. </li>
-					<li>A redundant system can perform the task in more than one way.
-						The choice of solution can be explored using the nullspace of the jacobian defining the primary task(visual servoing).
-					<li>Task priority formulation was used to project a secondary task onto the nullspace of the primary task.
+					<p>
+					Control of a fixed based manipulator is a well addressed problem. A floating base adds additional degree of difficulty to control problem.
+					Visual seroving of a dual-arm manipulator mounted on a floating base is addressed in this thesis work.
+					The following are the highlights of the work:
+					</p>
+					<li>Formulation of Generalized Jacobian Matrix to control the end-effectors while accounting for the base disturbance,
+					similar to motion rate control(using jacobian) of fixed based manipulators . </li>
+					<li>Visual servoing of the dual arm manipulator while using  the above control scheme.
+					<li>The system is a redundant system. Task priority formulation was used to project
+					 a secondary task onto the nullspace of the primary task(Visual servoing).
 					<li>Secondary task was formulated as a minimization of cost function for attitude disturbance.
-						This way, we could reduce the base attitude disturbance to zero. 
+					This way, we could reduce the base attitude disturbance to zero. 
 				</ul>
 			</div>
 			<div align="center">
