@@ -58,7 +58,7 @@ External - using one or more external CSS files
 		</div>
 		<p>
 			 <a href="demo_iframe.html" target="iframe1">demo_iframe</a>
-			 <a href="Academics.html" target="iframe1">Acedamics</a>
+			 <a href="Acedamics.html" target="iframe1">Acedamics</a>
 			 <a href="Publications.html" target="iframe1">Publications</a>
 		</p>
 		<iframe name="iframe1" src="Academics.html" width="1200" height="200">
